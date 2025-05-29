@@ -121,34 +121,35 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Jasmine Carter",
+    position: "Dispatcher",
+    company: "Operations Team",
+    quote:
+      "Everyone looks out for each other here. I feel respected and valued every day, and the team goes out of their way to make sure I have what I need to succeed.",
+    image:
+      "/generated/image-a-black-woman-dispatcher-is-seen-at-her-.webp"
+  },
+  {
+    name: "Carlos Mendez",
+    position: "Product Manager",
+    company: "Product Team",
+    quote:
+      "Probook supports your growth. I've moved up from an analyst role, and leadership is always encouraging skill development and new ideas.",
+    image:
+      "/generated/image-a-latino-man-who-is-a-product-manager-is.webp"
+  },
+  {
+    name: "Allison Grant",
+    position: "Engineering Lead",
+    company: "Engineering Team",
+    quote:
+      "The flexibility here is real—remote work, clear goals, and ownership over projects make it the best environment I’ve experienced as an engineer.",
+    image:
+      "/generated/image-a-white-woman-who-is-an-engineering-lead.webp"
+  }
+];
+
 
 	const processSteps = [
 		{
