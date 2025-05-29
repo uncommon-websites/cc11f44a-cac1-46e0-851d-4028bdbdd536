@@ -116,40 +116,49 @@
 
 <UseCases
   title="Use cases"
-  subtitle="See how Probook helps real service businesses run better"
+  subtitle="See how Probook solves real-world dispatching challenges"
   useCases={[
     {
-      title: "Send the top closer to high-value calls",
+      title: "Send your top closer to the biggest jobs",
       description:
-        "Probook helps your dispatchers assign revenue-driving jobs to your best sellers—without guesswork.",
-      image: "/generated/image-a-field-service-dispatch-team-deeply-eng.webp",
+        "Automatically flag and route high-ticket calls to technicians with the strongest close rates. Boost sales and get the most out of every opportunity—no more leaving it to chance.",
+      image: "/generated/image-a-home-services-dispatcher-in-a-cozy-off.webp",
       link: {
-        href: "/use-cases/top-closer-high-value",
+        href: "/use-cases/send-top-closer",
         label: "Learn more"
       }
     },
     {
-      title: "Manage 20–25 techs with a single dispatcher",
+      title: "Scale your team with fewer dispatchers",
       description:
-        "Autopilot handles the entire scheduling board, so one dispatcher can confidently run a large, efficient team.",
-      image: "/generated/image-a-confident-home-services-technician-war.webp",
+        "Autopilot mode lets a single dispatcher manage 20–25+ techs—focusing only on exceptions. Probook automatically handles routing, updates, and reschedules, so your dispatchers can confidently scale operations.",
+      image: "/generated/image-in-a-bustling-office-environment-a-large.webp",
       link: {
-        href: "/use-cases/manage-many-techs",
+        href: "/use-cases/scale-team",
         label: "Learn more"
       }
     },
     {
-      title: "Catch delays and avoid failed calls",
+      title: "Prevent late arrivals and failed calls",
       description:
-        "Get ahead of problems with automated late alerts and reschedule flags before a customer ever calls.",
-      image: "/generated/image-a-home-services-dispatcher-attentively-o.webp",
+        "Get proactive late alerts and reschedule suggestions before problems snowball. Protect your reputation, avoid missed jobs, and keep your customers coming back.",
+      image: "/generated/image-a-field-service-dispatcher-is-in-an-orga.webp",
       link: {
-        href: "/use-cases/catch-delays",
+        href: "/use-cases/prevent-failed-calls",
         label: "Learn more"
       }
     }
   ]}
 />
 
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+  title="See how easy dispatching can be"
+  subtitle="Book a demo and let Probook handle the rest"
+  description="Spend less time assigning jobs and more time growing your company. Probook makes it easy to boost sales, keep teams happy, and deliver the best experience for every customer."
+  imageSrc="/generated/image-a-cheerful-field-technician-and-dispatch.webp"
+  callsToAction={[
+    { href: '/book-demo', label: 'Book your demo', variant: 'primary' },
+    { href: '/customer-stories', label: 'See customer results', variant: 'secondary' }
+  ]}
+/>

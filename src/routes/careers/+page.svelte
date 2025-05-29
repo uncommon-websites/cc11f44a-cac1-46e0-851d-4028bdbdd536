@@ -151,23 +151,33 @@
 	];
 
 	const processSteps = [
-		{
-			step: 1,
-			title: "Apply",
-			description:
-				"Submit your application through our careers portal with your resume and portfolio."
-		},
-		{
-			step: 2,
-			title: "Interview",
-			description: "Meet with our team to discuss your experience, skills, and career aspirations."
-		},
-		{
-			step: 3,
-			title: "Welcome aboard",
-			description: "Join our team and start your journey building the future with us."
-		}
-	];
+  {
+    step: 1,
+    title: "Submit your application",
+    description:
+      "Send your resume or LinkedIn plus a few lines on why you want to work at Probook."
+  },
+  {
+    step: 2,
+    title: "Meet our team",
+    description: "We move quickly25expect a short video call with a hiring lead, team member, or our founder."
+  },
+  {
+    step: 3,
+    title: "Show your skills",
+    description: "Complete a paid take-home challenge or live problem-solving depending on the role."
+  },
+  {
+    step: 4,
+    title: "Final interview",
+    description: "Meet more teammates, dive into real scenarios, and ask everything on your mind."
+  },
+  {
+    step: 5,
+    title: "Get an offer and onboard",
+    description: "Receive a fast decision and, on joining, start with our two-day hands-on launch."
+  }
+];
 
 	const values = [
 		{
@@ -191,8 +201,9 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+    title="Empowering teams. Transforming the trades."
+    subtitle="Grow with a passionate crew driving real impact in home services"
+    imageSrc="/generated/image-a-diverse-group-of-colleagues-collaborat.webp"
 />
 
 <!-- Why Join Us Section -->

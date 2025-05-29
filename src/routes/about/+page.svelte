@@ -26,18 +26,17 @@
 </script>
 
 <SecondaryHero
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://source.unsplash.com/random/?people"
+	title="AI-powered dispatching, from real dispatchers"
+	subtitle="Built by people who’ve done the job. We stand beside your team—with hands-on support, not just software."
+	imageSrc="/mockups/airport-screen-1748547408784.png"
 />
 
 <!-- Story Section -->
 <Story
 	paragraphs={[
-		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
-		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
-		"From day one, we've asked ourselves: 'Does this actually help people?' This question gets us through tough calls and shapes who we are. We're playing the long game here.",
-		"We think about how our work affects real people's lives. We build tech that brings people together, keeps your information safe, and treats everyone fairly. When we stick to these basics, good things happen."
+		"Before Probook, we were on the dispatch board ourselves—juggling calls, spreadsheets, and gut-feel decisions that were far from scalable. Day after day, we watched opportunities fall through the cracks and teams stretched too thin. We weren’t alone. Nearly every home services company we connected with had the same struggle: great people, poor tools, and no clear way to reliably send the right tech to the right call.",
+		"So we built something better. With firsthand experience guiding us, we created Probook—dispatching software designed to support the real work of running a field team. It’s grounded in practical workflows, synced in real time with ServiceTitan, and offers two levels of automation that support—even strengthen—human decision-making. Most importantly, we didn’t just ship software; we showed up, sat next to real dispatchers, and built around what they actually needed.",
+		"Now Probook powers top dispatch teams across the country—from companies managing 25+ techs per dispatcher, to startups ready to grow with confidence. Customers see 12% more revenue, a 19% increase in flipped calls, and their dispatchers finally have tools they trust. We're here for the long haul—with hands-on support from day one and 24/7 availability that feels like a true partnership. Because we don't just believe in smarter dispatching—we believe in the people behind it."
 	]}
 />
 
@@ -46,57 +45,41 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our team."
+  subtitle="Founder & CEO George Eliadis leads Probook hands-on with every new customer. If you're launching with us, he'll be there—on-site, answering questions, and supporting dispatchers directly. Probook is built by someone who’s done the work. That’s why we prioritize dispatcher trust, day-one care, and features that actually make life easier. We’re here to help you grow—without babysitting your board."
+  stakeholders={[
+    {
+      name: "George Eliadis",
+      position: "Founder & CEO",
+      bio: "George supports every Probook launch personally, guiding teams through onboarding and beyond.",
+      image: "/generated/image-a-confident-business-founder-captured-in.webp"
+    }
+  ]}
 />
 
-<StakeholderGrid
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+
+
+
 
 <!-- CTA Section -->
 <CallToAction
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+  title="Run your board with confidence"
+  subtitle="Start with a personalized demo"
+  description="See how Probook can increase revenue, simplify dispatching, and support your team in real time. Get a custom ROI estimate—no strings attached."
+  callsToAction={[
+    {
+      href: 'https://calendly.com/george-eliadis/demo',
+      label: 'Book a demo',
+      variant: 'primary',
+    },
+    {
+      href: '/customer-stories',
+      label: 'See customer results',
+      variant: 'secondary',
+    }
+  ]}
+  imageSrc="/uploaded/dispatcher-smiling-portrait.jpg"
+/>
+d achieve their business goals."
 />
