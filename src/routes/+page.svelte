@@ -7,16 +7,52 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={true}
+  title="Send the right tech, every time"
+  subtitle="Probook helps home service companies dispatch faster, sell more, and keep customers happy—without the chaos."
+  customers={[
+    {
+      name: "Dani Dascher",
+      position: "Dispatcher at Auchinachie Services",
+      imageSrc: "/generated/image-a-female-dispatcher-in-a-contemporary-of.webp"
+    },
+    {
+      name: "Chris Holleran",
+      position: "General Manager at Auchinachie Services",
+      imageSrc: "/generated/image-a-male-plumbing-manager-dressed-in-a-blu.webp"
+    },
+    {
+      name: "Alyssa Porta",
+      position: "Operations Director at Lion Home Service",
+      imageSrc: "/generated/image-a-female-operations-director-sitting-con.webp"
+    },
+    {
+      name: "Mike Sullivan",
+      position: "Lead Dispatcher at Auchinachie Services",
+      imageSrc: "/generated/image-a-male-senior-dispatcher-with-a-headset-.webp"
+    },
+    {
+      name: "Krystin Hines",
+      position: "Dispatcher at Lion Home Service",
+      imageSrc: "/generated/image-a-female-lead-dispatcher-working-at-her-.webp"
+    }
+  ]}
+  callsToAction={[{ href: '/book-demo', label: 'Book a demo' }]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/ars.com',
+		'https://logo.clearbit.com/ars247.com',
+		'https://logo.clearbit.com/mrrooter.com',
+		'https://logo.clearbit.com/rescueairtx.com'
+	]}
+/>
 
 <Summary
 	generating
