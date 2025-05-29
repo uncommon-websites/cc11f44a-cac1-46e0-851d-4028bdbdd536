@@ -55,106 +55,100 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Probook uses AI to dispatch the best technician for every job, making assignments faster, smarter, and more profitable. Home service companies grow sales, improve efficiency, and deliver a better customer experience—no guesswork required."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
-			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image:
-				"https://images.unsplash.com/photo-1571513722275-4b41940f54b8?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Megan Ruiz",
+			position: "Lead dispatcher, Eco Plumbers",
+			quote: "Probook gave me two hours back every day. Now I train my team during shift instead of sorting out last-minute chaos.",
+			image: "/generated/image-a-female-dispatcher-in-a-modern-home-ser.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
-			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image:
-				"https://images.unsplash.com/photo-1600603405959-6d623e92445c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Calvin Harris",
+			position: "HVAC technician, Lion Home Service",
+			quote: "I no longer worry about missed jobs or overlap. The board updates live, so every route is set without mistakes.",
+			image: "/generated/image-a-male-hvac-technician-in-uniform-standi.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
-			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image:
-				"https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+			name: "Leah Nguyen",
+			position: "Operations manager, Butler Plumbing",
+			quote: "We grew profits 13% this quarter—dispatch is faster, and we waste fewer calls sitting in traffic or rerouting. That’s real money saved.",
+			image: "/generated/image-a-female-operations-manager-of-a-plumbin.webp"
 		}
 	]}
+/>
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
-	features={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
-		}
-	]}
+  title="What makes Probook different"
+  subtitle="AI dispatching, built for home service teams"
+  features={[
+    {
+      title: "AI-powered dispatching",
+      description: "Send the right tech to the right call—automatically or with instant recommendations."
+    },
+    {
+      title: "Real-time ServiceTitan integration",
+      description: "Manage your dispatch board and sync every change, no spreadsheets or double entry."
+    },
+    {
+      title: "Unmatched visibility",
+      description: "See technician performance, sales by job, and live call board forecasts—all in one place."
+    },
+    {
+      title: "Proven sales lift",
+      description: "Customers see an average 12% sales increase and 19% flip rate boost after launch."
+    },
+    {
+      title: "In-person support & onboarding",
+      description: "2-day onsite launch with our CEO and ongoing 24/7 support whenever you need help."
+    },
+    {
+      title: "Proactive alerts",
+      description: "Get early warnings for late calls and instant recommendations for easy rescheduling."
+    }
+  ]}
 />
 
 <UseCases
-	generating
-	title="Use Cases"
-	subtitle="Real-world applications for your business needs"
-	useCases={[
-		{
-			title: "Streamlined Workflows",
-			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings.",
-			image:
-				"https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/workflows",
-				label: "Learn more"
-			}
-		},
-		{
-			title: "Data Analysis",
-			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2488&q=80",
-			link: {
-				href: "/use-cases/data-analysis",
-				label: "Explore analytics"
-			}
-		},
-		{
-			title: "Secure Collaboration",
-			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption.",
-			image:
-				"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
-			link: {
-				href: "/use-cases/collaboration",
-				label: "See security features"
-			}
-		}
-	]}
+  title="Use cases"
+  subtitle="See how Probook helps real service businesses run better"
+  useCases={[
+    {
+      title: "Send the top closer to high-value calls",
+      description:
+        "Probook helps your dispatchers assign revenue-driving jobs to your best sellers—without guesswork.",
+      image: "/generated/image-a-field-service-dispatch-team-deeply-eng.webp",
+      link: {
+        href: "/use-cases/top-closer-high-value",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Manage 20–25 techs with a single dispatcher",
+      description:
+        "Autopilot handles the entire scheduling board, so one dispatcher can confidently run a large, efficient team.",
+      image: "/generated/image-a-confident-home-services-technician-war.webp",
+      link: {
+        href: "/use-cases/manage-many-techs",
+        label: "Learn more"
+      }
+    },
+    {
+      title: "Catch delays and avoid failed calls",
+      description:
+        "Get ahead of problems with automated late alerts and reschedule flags before a customer ever calls.",
+      image: "/generated/image-a-home-services-dispatcher-attentively-o.webp",
+      link: {
+        href: "/use-cases/catch-delays",
+        label: "Learn more"
+      }
+    }
+  ]}
 />
 
 <AboutTeaser generating />
