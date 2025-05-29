@@ -71,7 +71,7 @@
 			name: "Calvin Harris",
 			position: "HVAC technician, Lion Home Service",
 			quote: "I no longer worry about missed jobs or overlap. The board updates live, so every route is set without mistakes.",
-			image: "/generated/image-a-male-hvac-technician-in-uniform-standi.webp"
+			image: "/generated/image-an-older-male-hvac-technician-in-uniform.webp"
 		},
 		{
 			name: "Leah Nguyen",
