@@ -35,79 +35,111 @@ Please update features according to the company's product offering. Do not remov
 
 	// Props
 	const {
-		title = "Simple, transparent pricing",
-		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		title = "Simple, scalable pricing",
+		subtitle = "Choose the dispatch automation plan that fits your operation best.",
+		tierNames = ["Starter", "Professional", "Enterprise"],
 		features = [
 			{
-				name: "Projects",
+				name: "Product mode",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
+					Starter: "Copilot (recommendations)",
+					Professional: "Autopilot (fully automated)",
+					Enterprise: "Fully custom"
 				}
 			},
 			{
-				name: "Team members",
+				name: "Real-time ServiceTitan integration",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "Storage",
-				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
-				}
-			},
-			{
-				name: "API access",
-				tiers: {
-					Starter: false,
-					Pro: true,
+					Starter: true,
+					Professional: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Automated technician assignment",
 				tiers: {
-					Starter: false,
-					Pro: true,
+					Starter: "Suggestions only",
+					Professional: "Full automation",
+					Enterprise: "Custom workflows"
+				}
+			},
+			{
+				name: "Sales optimization insights",
+				tiers: {
+					Starter: true,
+					Professional: true,
 					Enterprise: true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "Tech performance & speed analytics",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					Starter: true,
+					Professional: true,
+					Enterprise: "Custom reporting"
+				}
+			},
+			{
+				name: "7-day dispatch board",
+				tiers: {
+					Starter: true,
+					Professional: true,
+					Enterprise: true
+				}
+			},
+			{
+				name: "Geography-based revenue and demand mapping",
+				tiers: {
+					Starter: true,
+					Professional: true,
+					Enterprise: "Advanced / custom"
+				}
+			},
+			{
+				name: "Flip rate analytics",
+				tiers: {
+					Starter: true,
+					Professional: true,
+					Enterprise: "Deep analytics"
 				}
 			},
 			{
 				name: "Support response time",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
+					Starter: "Business hours",
+					Professional: "24/7 support",
+					Enterprise: "White-glove, dedicated"
 				}
 			},
 			{
-				name: "Dedicated account manager",
+				name: "In-person onboarding",
+				tiers: {
+					Starter: "2 days",
+					Professional: "2 days",
+					Enterprise: "Custom rollout"
+				}
+			},
+			{
+				name: "Ongoing check-ins",
+				tiers: {
+					Starter: "Twice monthly",
+					Professional: "Twice weekly",
+					Enterprise: "Unlimited"
+				}
+			},
+			{
+				name: "Custom integrations",
 				tiers: {
 					Starter: false,
-					Pro: false,
+					Professional: false,
 					Enterprise: true
 				}
 			},
 			{
-				name: "SLA",
+				name: "Uptime SLA",
 				tiers: {
 					Starter: false,
-					Pro: false,
+					Professional: false,
 					Enterprise: "99.9%"
 				}
 			}
@@ -115,36 +147,38 @@ Please update features according to the company's product offering. Do not remov
 		tiers = [
 			{
 				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				monthlyPrice: 399,
+				yearlyPrice: 319, // 20% off
+				description: "AI Copilot: recommendations-only dispatching for boosting sales and efficiency.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"Real-time ServiceTitan integration",
+					"AI-powered dispatch recommendations",
+					"Tech performance & sales analytics",
+					"7-day call board & geography insights",
+					"2-day in-person onboarding",
+					"Twice-monthly check-ins & business hours support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Book a demo",
+					href: "/book-demo?plan=starter"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Professional",
+				monthlyPrice: 899,
+				yearlyPrice: 719, // 20% off
+				description: "Full Autopilot: fully automated job assignments with advanced AI and 24/7 support.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"Everything in Starter",
+					"Full dispatch automation",
+					"Automated board rebalancing",
+					"Advanced analytics & reporting",
+					"2-day in-person onboarding",
+					"Twice-weekly check-ins & 24/7 support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Book a demo",
+					href: "/book-demo?plan=professional"
 				},
 				highlight: true
 			},
@@ -152,19 +186,18 @@ Please update features according to the company's product offering. Do not remov
 				name: "Enterprise",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "Tailored automation, integrations, and support for the largest teams.",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
+					"Everything in Professional",
+					"Custom workflows & integrations",
+					"White-glove onboarding",
+					"Unlimited check-ins",
+					"Dedicated support manager",
 					"99.9% uptime SLA"
 				],
 				cta: {
 					label: "Contact sales",
-					href: "/contact"
+					href: "/contact-sales"
 				}
 			}
 		]
